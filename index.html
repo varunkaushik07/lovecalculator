@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Love Calculator</title>
+		<style type="text/css">
+			@font-face {
+			    font-family: "Bleeding Cowboys";
+			    src: url(fonts/Bleeding Cowboys.ttf) format("truetype");
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	</head>
+	<body>
+		<div align="center" class="container">
+			<header>
+				<h1 id="head" align="center" style="font-size:40px;">Love Calculator</h1>
+			</header>
+
+			<section>
+				<article>
+							<label class="lable">Your Name</label>
+							<input type="text" id="firstname" class="form-control" placeholder="Your Name">
+							<label class="lable">Valentine Name</label>
+							<input type="text" id="secondname" class="form-control" placeholder="Your Valentine Name">
+
+							    <div align="center"><button class="btn btn-danger" onclick="calculate()" value="calculate">Calculate</button></div>
+								<div id="result" align="center"></div>
+				</article>	
+			</section>
+		</div>
+			
+			<script type="text/javascript" src="js/js.js"></script>
+			<script type="text/javascript">
+			function calculate(){
+
+				calculateLove();
+			}
+			</script>
+		</div>
+	</body>
+</html>

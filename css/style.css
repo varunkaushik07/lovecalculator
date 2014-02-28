@@ -1,0 +1,30 @@
+body{
+
+    background: linear-gradient(90deg, #BB0000, pink);
+    height: 100% !important;}
+header{
+    border: 2px inset red;
+}
+#result{
+    font-size: 36px;
+    color: #FFF;
+}
+article{
+    text-align: left;
+}
+.lable{
+    font-size: 25px;
+    color: #ebebeb;
+    margin-top: 5px;
+    padding: 5px;
+}
+img{
+    margin: 10px;
+}
+#head{
+    font-family: Bleeding Cowboys;
+    color: #efefee;
+}
+button{
+    margin: 10px !important;
+}

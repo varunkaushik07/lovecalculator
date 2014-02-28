@@ -1,0 +1,14 @@
+{
+  "name": "Love Calculator",
+  "description": "Calculate your love percentage",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icons/img1.png",
+    "64": "/icons/img2.png"
+  },
+  "developer": {
+    "name": "Lavish Aggarwal",
+    "url": "http://www.about.me/lavish"
+  },
+  "default_locale": "en"
+}
